@@ -106,7 +106,7 @@ img {
 
 @media (max-width: 400px) {
   .introducao {
-    font-size: 2.5em;
+    font-size: 2.25em;
   }
 }
 
@@ -388,6 +388,19 @@ img {
     font-size: 1.5em;
   }
 }
+@media (max-width: 400px) {
+  .newsletter-form button,
+  .newsletter-form input {
+    font-size: 1em;
+    padding: 10px 5px;
+  }
+  .newsletter-info h1 {
+    font-size: 2.25em;
+  }
+  .newsletter-info p {
+    font-size: 1.25em;
+  }
+}
 
 /* Footer */
 
@@ -402,4 +415,9 @@ img {
   text-align: center;
   font-size: 2.25em;
   color: #122ab2;
+}
+@media (max-width: 400px) {
+  .footer p {
+    font-size: 2em;
+  }
 }
