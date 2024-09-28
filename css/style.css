@@ -104,6 +104,12 @@ img {
   padding: 60px 10px;
 }
 
+@media (max-width: 400px) {
+  .introducao {
+    font-size: 2.5em;
+  }
+}
+
 .sobre {
   display: flex;
   max-width: 960px;
